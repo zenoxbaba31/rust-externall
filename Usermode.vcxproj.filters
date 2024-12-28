@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math&amp;Globals">
+      <UniqueIdentifier>{e26f7d8e-7696-4133-949a-5ff21f373ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{0ce6d698-56da-4ad4-ab2a-3078ce61c41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{3f191a18-d9d0-41bf-908e-c98179ad7fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{3882a01b-cd01-424a-877f-01d2d44a78ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protect">
+      <UniqueIdentifier>{2c602293-e0f8-4cdf-b16a-fda504283563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proje Ekleri">
+      <UniqueIdentifier>{ce3dfa6b-569a-47c3-b60c-6b5b5c58741f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{f93c62d3-351e-499e-a69a-faeececd9758}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="drawfunctions.h">
+      <Filter>Proje Ekleri</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_freetype.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_settings.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.h">
+      <Filter>Math&amp;Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Math&amp;Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Math&amp;Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Proje Ekleri</Filter>
+    </ClInclude>
+    <ClInclude Include="entityloop.hpp">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="mainclasses.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Math&amp;Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="drawcheat.hpp">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\anti_debugger.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\antidump.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\lazy.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\protectmain.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protechcodes.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapperr\xorstr.hpp">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="decrypt.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\intel_driver.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\intel_driver_resource.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\kdmapper.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\nt.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\portable_executable.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\service.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\utils.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\xorstr.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_freetype.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="protect\protectmain.cpp">
+      <Filter>Protect</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\intel_driver.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\kdmapper.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\portable_executable.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\service.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\utils.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="mapper\kdmapper.vcxproj">
+      <Filter>mapper</Filter>
+    </None>
+    <None Include="mapper\kdmapper.vcxproj.filters">
+      <Filter>mapper</Filter>
+    </None>
+    <None Include="mapper\kdmapper.vcxproj.user">
+      <Filter>mapper</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freetype\win64\freetype.lib">
+      <Filter>Proje Ekleri</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="SDK\Lib\x64\d3d11.lib" />
+    <Library Include="SDK\Lib\x64\d3dx11.lib" />
+  </ItemGroup>
+</Project>
